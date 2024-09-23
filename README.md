@@ -46,10 +46,10 @@ This project is a book recommendation system that allows users to search for boo
 
 ### Frontend Setup
 
-1. Navigate to the `frontend` folder:
+1. Navigate to the `pages` folder:
 
     ```bash
-    cd frontend
+    cd book-recommender/pages
     ```
 
 2. Install dependencies:
@@ -61,7 +61,7 @@ This project is a book recommendation system that allows users to search for boo
 3. Start the React development server:
 
     ```bash
-    npm start
+    npm run dev
     ```
 
    The app will run on `http://localhost:3000`.
@@ -71,18 +71,10 @@ This project is a book recommendation system that allows users to search for boo
 1. Navigate to the `backend` folder:
 
     ```bash
-    cd backend
+    cd book-recommender/pages/api
     ```
 
-2. Create a virtual environment and install dependencies:
-
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    pip install -r requirements.txt
-    ```
-
-3. Start the Flask API:
+2. Start the Flask API:
 
     ```bash
     python app.py
